@@ -1,0 +1,105 @@
+<style>
+    table, th, td {border:1px solid black;
+    border-radius:15px;}
+    table {
+    border-spacing: 5px;
+    }
+    tr:nth-child(even){background-color: #0a66d4;}
+    </style>
+    </head>
+    <body>
+    <table style="width:100%">
+    <tr>
+    <th colspan="8">December</th>
+    </tr>
+    <tr>
+    <td></td>
+    <td>mon</td>
+    <td>tus</td>
+    <td>wed</td>
+    <td>thr</td>
+    <td>fri</td>
+    <td>sat</td>
+    <td>sun</td>
+    </tr>
+    <tr>
+    <td>first week</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    </tr>
+    <tr>
+    <td>second week</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    </tr>
+    <tr>
+    <td>third week</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    </tr>
+    <tr>
+    <td>fourth week</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    </tr>
+    </table><br>
+    <form action="action.php">
+        <div>
+            <label for="firstname">first name</label><br>
+            <input type="text" name="firstname" placeholder="first name" required>
+        </div><br>
+        <div>
+            <label for="lname">last name</label><br>
+            <input type="text" name="lname" placeholder="last name" required>
+        </div><br>
+        <div>
+            <label for="psw">password</label><br>
+            <input type="password" name="psw" placeholder="ADD YOUR PASSWORD" required min="7" max="12">
+        </div><br>
+        <div>
+            <label for="submit"></label><br>
+            <input type="submit" name="submit">
+        </div>
+        <div>
+            <input type="radio" id="and" name="android" value="android"><label for="and">android</label>
+            <input type="radio" id="java" name="java" value="java"><label for="java">java</label>
+            <input type="radio" id="ios" name="ios" value="ios"><label for="ios">ios</label>
+        </div><br>
+           <input list="selectors" name="sss">
+           <input type="submit" value="send">
+           <datalist id="selectors"> 
+               <option value="yemen">
+               <option value="iraq">
+               <option value="oman">
+               <option value="sirya">
+               <option value="palastine">
+               <option value="egypt">
+               <option value="algeira">
+               <option value="morroco">
+               <option value="lebanon">
+               <option value="turkey">
+               <option value="spain">
+                    <input type="submit" value="send"><br>
+           </datalist>
+           <button>click me</button>
+    </form>
