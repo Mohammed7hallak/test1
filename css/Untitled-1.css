@@ -1,0 +1,9 @@
+table, th, td {border:1px solid black;
+    border-radius:15px;}
+    table {
+    border-spacing: 5px;
+    }
+    tr:nth-child(even){background-color: #0a66d4;}
+    fieldset { width: 350px;
+               background-color: darkolivegreen;  
+    }
