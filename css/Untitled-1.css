@@ -1,3 +1,7 @@
+body {
+    background-color: dimgrey;
+}
+
 table, th, td {border:1px solid black;
     border-radius:15px;}
     table {
@@ -6,4 +10,56 @@ table, th, td {border:1px solid black;
     tr:nth-child(even){background-color: #0a66d4;}
     fieldset { width: 350px;
                background-color: darkolivegreen;  
+    }
+    h1 {
+        text-align: center;
+        text-shadow: 3PX 3PX 3PX seagreen;
+        text-shadow: 6PX 6PX 6PX BLUE;
+        text-shadow: 9PX 9PX 9PX darkred;
+    }
+    a {
+        text-decoration: none;
+        text-transform: capitalize;
+        border-radius: 6px;
+        background-color: navy;
+        color: oldlace;
+        display: inline-block;
+        padding: 25PX;
+        margin-bottom: 15PX;
+    }
+    a:visited{
+        background-color: blue;
+        color: white;
+    }
+    a:hover {
+        background-color: white;
+        color: blue;
+    }
+    a:active{
+        background-color: blue;
+        color: white;
+    }
+    a.yt {
+        border-radius: 6px;
+        text-transform: capitalize;
+        text-decoration: none;
+        margin-bottom: 15px;
+        margin-left:26px;
+        display: inline-block;
+        background-color: red;
+        color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    a.yt:visited,  {
+        background-color: red;
+        color: silver;
+    }
+    a.yt:hover {
+        background-color:wheat;
+        color: red;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    }
+    a.yt:active {
+        background-color: red;
+        color: white;
     }
