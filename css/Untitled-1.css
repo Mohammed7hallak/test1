@@ -5,16 +5,19 @@ body {
 table, th, td {border:1px solid black;
     border-radius:15px;}
     table {
-    border-spacing: 5px;
+    border-spacing: 10px;
+    background-color: darkgreen;
     }
     tr:nth-child(even){background-color: #0a66d4;}
-    fieldset { width: 350px;
-               background-color: darkolivegreen;  
+   th {background-color: white;}
+    fieldset { width:80%;
+           background-image: url(../imgs/eagle_flight_sky_wings_clouds_97499_1280x720.jpg);
+              
     }
     h1 {
         text-align: center;
-        text-shadow: 3PX 3PX 3PX seagreen;
-        text-shadow: 6PX 6PX 6PX BLUE;
+        text-shadow: 3PX 3PX 3PX rgb(41, 63, 50);
+        text-shadow: 6PX 6PX 6PX rgb(125, 125, 160);
         text-shadow: 9PX 9PX 9PX darkred;
     }
     a {
@@ -50,7 +53,7 @@ table, th, td {border:1px solid black;
         color: white;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
-    a.yt:visited,  {
+    a.yt:visited {
         background-color: red;
         color: silver;
     }
@@ -63,3 +66,35 @@ table, th, td {border:1px solid black;
         background-color: red;
         color: white;
     }
+    P {background-color: blue;
+    width: 200px;}
+    P.as {opacity: 0.1;}
+    p.sa {opacity: 0.2;}
+    p.sas {opacity: 0.3;}
+    p.asas {opacity: 0.4;}
+    p.asasa {opacity:0.5;}
+    h3 {
+        letter-spacing: 5px;
+        word-spacing: 3px;
+        line-height: 1.5;
+        white-space: nowrap;
+        width: 360px;
+        overflow: hidden;
+    }
+    .inh {
+        text-align: center;
+        background-color: darkorange;
+        color: darkslategray;
+        border: 2px solid blue;
+        border-radius: 5px;
+        width: 500px;
+        padding: 30px;
+    }
+    .inh p {
+        text-align:inherit;
+        background-color: inherit;
+        color: inherit;
+        border: inherit;
+        border-radius: inherit;
+        width: inherit;
+     }
