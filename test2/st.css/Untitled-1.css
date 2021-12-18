@@ -1,0 +1,154 @@
+.text1 {   
+background-image: url("../images/img7.png");
+width: 85%;
+height: 350px;
+background-position: center;
+color: white;
+}
+.be-ready {
+    vertical-align: center;
+    color: green;
+    margin-bottom: 15px;
+    margin-left: 5%;
+    padding-bottom: 15px;
+    display: inline-block;
+}
+.sasa {
+    width: 20%;
+    direction: ltr;
+    color: cornsilk;
+    text-transform: capitalize;
+}
+.overf {
+    background-color: crimson;
+    color: darkgrey;
+    font-family: 'Times New Roman', Times, serif;
+    overflow: auto;
+    width: 150px;
+    height: 150px;
+}
+/*div {
+    font-variant: small-caps;
+    font-style: initial;
+}*/
+.float div {
+  
+text-align: center;
+   text-transform: uppercase;
+    background-color: lightslategrey;
+padding-top: 10px;
+padding-bottom: 10px;
+float: left;
+width: 25%;
+}
+.float {
+    width: 60%;
+  /*  overflow: hidden;*/
+    padding: 10px;
+    background-color: maroon;
+}
+.clr {
+    clear: both;
+}
+/*div div:hover {
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+}*/
+.calc {
+    width: calc((100% - 130px)/5);
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: darkblue;
+   display: inline-block;
+   padding: 25px 0px;
+}
+.bord {
+    background-color: darkred;
+    padding: 10px;
+}
+.red {
+    background-color: red;
+    position: absolute;
+    right: 54px;
+}
+.blue {
+    background-color: blue;
+    position: absolute;
+    left: 25px;
+    bottom: 0px;
+
+}
+.red, .blue {
+    color: white;
+    width: 25px;
+    padding: 20px 15px;
+}
+.green {
+    background-color: green;
+    width: 500px;
+    height: 300px;
+    position: relative;
+}
+.sticky {
+    width: 25%;
+    border-radius: 10px;
+    background-color: red;
+    color: yellow;
+    padding: 20px 10px;
+    position: sticky;
+    top: 0px;
+    bottom: 0px;
+ display: inline-block;
+}
+body {
+    height: 4000px;
+}
+ul {
+    list-style: none outside;
+    margin: px;
+    padding: 0px;
+}
+.one, .two, .three {
+    width: 150px;
+    padding: 15px;
+    border: 1px solid;  
+    border-radius: 5px;
+}
+.one {
+    background-color: red;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.two {
+    position: absolute;
+    background-color: blue;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.three {
+    position: absolute;
+    background-color: green;
+}
+.frs {position: absolute;}
+.psudeo {
+    border: solid black;
+    border-left: 2px;
+    border-right: 2px;
+    position: relative;
+    top: 100px;
+    width: 90%;
+    height: 50px;
+    background-color: tomato;
+}
+.fr, .sc, .thd {
+    text-decoration: none;
+    margin-top: 14px;
+    display: inline-block;
+}
+.thd {
+    position: absolute;
+    right:47px;
+    font-size: 2vw;
+}
