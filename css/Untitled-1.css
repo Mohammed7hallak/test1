@@ -11,8 +11,8 @@ table, th, td {border:1px solid black;
     tr:nth-child(even){background-color: #0a66d4;}
    th {background-color: white;}
     fieldset { width:80%;
-           background-image: url(../imgs/eagle_flight_sky_wings_clouds_97499_1280x720.jpg);
-              
+           background-image: url(../imgs/pexels-fauxels-3183132.jpg);
+              background-size: cover;
     }
     h1 {
         text-align: center;
@@ -20,38 +20,21 @@ table, th, td {border:1px solid black;
         text-shadow: 6PX 6PX 6PX rgb(125, 125, 160);
         text-shadow: 9PX 9PX 9PX darkred;
     }
-    a {
-        text-decoration: none;
-        text-transform: capitalize;
-        border-radius: 6px;
-        background-color: navy;
-        color: oldlace;
-        display: inline-block;
-        padding: 25PX;
-        margin-bottom: 15PX;
-    }
-    a:visited{
-        background-color: blue;
-        color: white;
-    }
-    a:hover {
+     a.fb {
+         background-color: blue;
+         color: white;
+     }
+        a.fb:hover {
         background-color: white;
         color: blue;
     }
-    a:active{
+    a.fb:active{
         background-color: blue;
         color: white;
     }
     a.yt {
-        border-radius: 6px;
-        text-transform: capitalize;
-        text-decoration: none;
-        margin-bottom: 15px;
-        margin-left:26px;
-        display: inline-block;
         background-color: red;
         color: white;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     a.yt:visited {
         background-color: red;
@@ -64,6 +47,31 @@ table, th, td {border:1px solid black;
     }
     a.yt:active {
         background-color: red;
+        color: white;
+    }
+    a.wta {
+     
+        background-color: green;
+        color: white;
+    }
+    a.wta, a.yt, a.fb {
+        border-radius: 6px;
+        text-transform: capitalize;
+        text-decoration: none;
+        margin-bottom: 15px;
+        margin-left:26px;
+        display: inline-block;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding: 25px;
+        width: 200px;
+    }
+    a.wta:hover {
+        background-color:white;
+        color: green;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    }
+    a.wta:active {
+        background-color: green;
         color: white;
     }
     P {background-color: blue;
@@ -98,3 +106,37 @@ table, th, td {border:1px solid black;
         border-radius: inherit;
         width: inherit;
      }
+    .img {
+         background-position: right;
+         background-color:transparent;
+         position:initial;
+     }
+     .img:hover {
+         background-color: transparent;
+
+     }
+    .immg {
+    position: static;
+     direction: rtl;    
+}
+.st1, .st2, .st3, .st4, .st5 {
+    background-color: lavender;
+   color: green;
+   padding: 0px 35px 0px 0px;
+   border: 3px;
+   border-radius: 6px;
+   list-style-type: none;
+margin: 2px 30px 2px 0px;
+display: inline-block;
+padding-left: 50px;
+width: 200px;
+height: 30px;
+text-align: left,center ;
+
+text-decoration: none;
+}
+.st1:hover, .st2:hover, .st3:hover, .st4:hover, .st5:hover {
+    background-color: mediumslateblue;
+    color: greenyellow;
+    font-size: 20px;
+}
